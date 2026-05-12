@@ -153,4 +153,4 @@ Python 3.x
 
 ---
 
-*Trabajo Final — Master en Data Analytics for Business*
+*Reto de Inteligencia Artificial — Master en Data Analytics for Business*
