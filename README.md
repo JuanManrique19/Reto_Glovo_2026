@@ -114,6 +114,7 @@ Python 3.x
 |---------|-------------|
 | `glovo_eta_master.ipynb` | Notebook principal — análisis completo, código y visualizaciones |
 | `glovo_eta_documento_tecnico.docx` | Documento técnico complementario — metodología y decisiones |
+| `Presentacion_Final_de Glovo_ETA_ (1).pdf` | Presentación final del proyecto |
 
 ---
 
