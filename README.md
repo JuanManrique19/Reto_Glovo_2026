@@ -48,14 +48,14 @@ El último 20% del dataset (ordenado por fecha) se reserva como test, replicando
 
 ## Modelos comparados
 
-| # | Modelo | MAE (min) | RMSE (min) | R² |
-|---|--------|-----------|------------|-----|
-| 1 | Baseline (mediana) | ~12.3 | — | — |
-| 2 | Ridge | ~9.15 | — | — |
-| 3 | Random Forest | ~9.15 | — | — |
-| 4 | LightGBM básico | mejora marginal | — | — |
-| 5 | LightGBM + categóricas | mejora | — | — |
-| **6** | **LightGBM + categóricas + saturation** | **~6.4** | — | — |
+| # | Modelo | MAE (min) | RMSE (min) | R² | Δ vs baseline |
+|---|--------|-----------|------------|-----|---------------|
+| 1 | Baseline (mediana) | 12.29 | 17.21 | -0.099 | — |
+| 2 | Ridge | 9.17 | 12.59 | 0.412 | -3.12 min |
+| 3 | Random Forest | 9.16 | 12.55 | 0.416 | -3.13 min |
+| 4 | LightGBM básico | 9.02 | 12.35 | 0.434 | -3.26 min |
+| 5 | LightGBM + categóricas | 8.88 | 12.20 | 0.448 | -3.41 min |
+| **6** | **LightGBM + categóricas + saturation** | **6.43** | **8.21** | **0.750** | **-5.85 min** |
 
 > **Modelo final:** LightGBM con manejo nativo de variables categóricas y variable `saturation`.
 > Mejora de **~5.9 minutos** sobre el baseline.
